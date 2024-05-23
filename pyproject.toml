@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "eda-rossmann"
+version = "0.1.0"
+description = ""
+authors = ["Thales Luiz <thalesluizbraga@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+ipython = "^8.24.0"
+pandas = "^2.2.2"
+inflection = "^0.5.1"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
